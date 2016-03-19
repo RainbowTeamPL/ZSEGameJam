@@ -94,12 +94,10 @@ GameObject:
   m_Component:
   - 224: {fileID: 139177969}
   - 222: {fileID: 139177971}
-  - 114: {fileID: 139177974}
-  - 114: {fileID: 139177973}
   - 114: {fileID: 139177970}
-  - 114: {fileID: 139177975}
+  - 114: {fileID: 139177972}
   m_Layer: 5
-  m_Name: PonyWalking
+  m_Name: Loadlogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -155,7 +153,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 139177968}
---- !u!114 &139177973
+--- !u!114 &139177972
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -163,51 +161,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 139177968}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 939c65ff2e2635944a9dfee8285419b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b44f78360ee1b94bb9de4edfad743fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  originalWidth: 1
-  originalHeight: 1
-  toHeightParam: 1
-  fixOnUpdate: 1
---- !u!114 &139177974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 139177968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6892989578a2d8749bdb507e3e639eba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetRenderer: {fileID: 139177968}
-  filterMode: 0
-  wrapMode: 1
-  pauseAnimation: 0
-  loadOnStart: 1
-  loadOnStartUrl: 
-  useCoroutineGetTexture: 0
-  rotateOnLoading: 0
-  outputDebugLog: 0
-  gifpic: ts.gif
-  gifpic2: rd.gif
-  gifpic3: pp.gif
---- !u!114 &139177975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 139177968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1524506875, guid: 8d30387830d91964087253fa7256f53f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timer: 1.2
-  full: {r: 1, g: 1, b: 1, a: 1}
-  notfull: {r: 1, g: 1, b: 1, a: 0}
+  full: {r: 1, g: 1, b: 1, a: 0}
+  load: 0
+  notfull: {r: 1, g: 1, b: 1, a: 1}
   scene: OverWorld01
+  timer: 1.2
 --- !u!1 &162799017
 GameObject:
   m_ObjectHideFlags: 0
@@ -432,6 +393,7 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 1
   m_TargetDisplay: 0
