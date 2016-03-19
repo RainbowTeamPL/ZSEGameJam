@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{8FBFD03A-9AA1-03D7-C943-75CE4D6D7AAB}") = "ZSEGameJam", "Assembly-CSharp.csproj", "{EA19F490-B9CD-61C9-EB02-D49D397A85C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA19F490-B9CD-61C9-EB02-D49D397A85C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA19F490-B9CD-61C9-EB02-D49D397A85C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA19F490-B9CD-61C9-EB02-D49D397A85C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA19F490-B9CD-61C9-EB02-D49D397A85C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
