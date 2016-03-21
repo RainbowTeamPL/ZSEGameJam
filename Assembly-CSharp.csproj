@@ -45,15 +45,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\InstantGoodDay\script\Ambient.cs" />
+     <Compile Include="Assets\InstantGoodDay\script\InstantGoodDay.cs" />
+     <Compile Include="Assets\Scenes\test\kompas.cs" />
      <Compile Include="Assets\Scripts\ApplicationQuit.cs" />
+     <Compile Include="Assets\Scripts\HP.cs" />
+     <Compile Include="Assets\Scripts\KoniecGry.cs" />
      <Compile Include="Assets\Scripts\Loading\MenuToOverWorld01.cs" />
      <Compile Include="Assets\Scripts\NewGame.cs" />
+     <Compile Include="Assets\UniGif\Example\Script\UniGifTest.cs" />
+     <Compile Include="Assets\UniGif\Example\Script\UniGifTexture.cs" />
+     <Compile Include="Assets\UniGif\Example\Script\Utility\FixPlaneAspectRatio.cs" />
+     <Compile Include="Assets\UniGif\Example\Script\Utility\Scale2dCamera.cs" />
+     <Compile Include="Assets\UniGif\UniGif.cs" />
+     <Compile Include="Assets\UniGif\UniGifConst.cs" />
+     <Compile Include="Assets\UniGif\UniGifDecoder.cs" />
+     <Compile Include="Assets\UniGif\UniGifFormatter.cs" />
+     <Compile Include="Assets\modele\ToMenu.cs" />
+     <Compile Include="Assets\modele\TorchScript.cs" />
+     <Compile Include="Assets\modele\notka.cs" />
+     <Compile Include="Assets\modele\wilk.cs" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\InstantGoodDay\material\bbDifuseNoFog.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\InstantGoodDay\material\bbDifuseAlphaNoFog.shader" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
-     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

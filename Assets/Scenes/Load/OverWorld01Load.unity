@@ -96,6 +96,7 @@ GameObject:
   - 222: {fileID: 139177971}
   - 114: {fileID: 139177970}
   - 114: {fileID: 139177972}
+  - 114: {fileID: 139177973}
   m_Layer: 5
   m_Name: Loadlogo
   m_TagString: Untagged
@@ -126,7 +127,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 139177968}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
@@ -165,10 +166,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   full: {r: 1, g: 1, b: 1, a: 0}
-  load: 0
+  load: 1
   notfull: {r: 1, g: 1, b: 1, a: 1}
   scene: OverWorld01
   timer: 1.2
+--- !u!114 &139177973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 139177968}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6892989578a2d8749bdb507e3e639eba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gifpic: klepsydra.gif
+  filterMode: 0
+  loadOnStart: 1
+  loadOnStartUrl: 
+  outputDebugLog: 0
+  pauseAnimation: 0
+  rotateOnLoading: 0
+  targetRenderer: {fileID: 139177968}
+  useCoroutineGetTexture: 0
+  wrapMode: 1
 --- !u!1 &162799017
 GameObject:
   m_ObjectHideFlags: 0
